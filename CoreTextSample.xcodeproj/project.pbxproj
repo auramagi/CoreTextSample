@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61C1145C29542FB70069B1FB /* CoreTextApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C1145B29542FB70069B1FB /* CoreTextApp.swift */; };
 		B82BF63415AB9C7D00076C7E /* Sample4.m in Sources */ = {isa = PBXBuildFile; fileRef = B82BF63315AB9C7D00076C7E /* Sample4.m */; };
 		B82BF63B15AB9F6200076C7E /* Sample9.m in Sources */ = {isa = PBXBuildFile; fileRef = B82BF63A15AB9F6200076C7E /* Sample9.m */; };
 		B8460E8815A8708500C825FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8460E8715A8708500C825FB /* UIKit.framework */; };
 		B8460E8A15A8708500C825FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8460E8915A8708500C825FB /* Foundation.framework */; };
 		B8460E8C15A8708500C825FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8460E8B15A8708500C825FB /* CoreGraphics.framework */; };
 		B8460E9215A8708500C825FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8460E9015A8708500C825FB /* InfoPlist.strings */; };
-		B8460E9415A8708500C825FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8460E9315A8708500C825FB /* main.m */; };
-		B8460E9815A8708500C825FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8460E9715A8708500C825FB /* AppDelegate.m */; };
-		B8460EB615A903AE00C825FB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8460EB515A903AE00C825FB /* TableViewController.m */; };
-		B8460EB915A903DE00C825FB /* CoreTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8460EB815A903DE00C825FB /* CoreTextViewController.m */; };
+		B8460EB615A903AE00C825FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8460EB515A903AE00C825FB /* ContentView.swift */; };
 		B8460EBE15A9042400C825FB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8460EBD15A9042400C825FB /* CoreText.framework */; };
 		B8460EC115A904D800C825FB /* CoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8460EC015A904D800C825FB /* CoreTextView.m */; };
 		B8460EC315A905CE00C825FB /* Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8460EC215A905CE00C825FB /* Text.txt */; };
@@ -35,10 +33,11 @@
 		B884FABD15ABD45C00D525A3 /* Sample11.m in Sources */ = {isa = PBXBuildFile; fileRef = B884FABC15ABD45C00D525A3 /* Sample11.m */; };
 		B8984F48164F667B00E6A3D3 /* Sample14.m in Sources */ = {isa = PBXBuildFile; fileRef = B8984F47164F667A00E6A3D3 /* Sample14.m */; };
 		B8D7F7D21611F4B400B56697 /* Sample12.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D7F7D11611F4B400B56697 /* Sample12.m */; };
-		B8D7F7DF1612DBFE00B56697 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D7F7DE1612DBFD00B56697 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61C1145A29542FB70069B1FB /* CoreTextSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreTextSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		61C1145B29542FB70069B1FB /* CoreTextApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTextApp.swift; sourceTree = "<group>"; };
 		B82BF63215AB9C7D00076C7E /* Sample4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample4.h; sourceTree = "<group>"; };
 		B82BF63315AB9C7D00076C7E /* Sample4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample4.m; sourceTree = "<group>"; };
 		B82BF63915AB9F6200076C7E /* Sample9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample9.h; sourceTree = "<group>"; };
@@ -49,14 +48,8 @@
 		B8460E8B15A8708500C825FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B8460E8F15A8708500C825FB /* CoreTextSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreTextSample-Info.plist"; sourceTree = "<group>"; };
 		B8460E9115A8708500C825FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B8460E9315A8708500C825FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8460E9515A8708500C825FB /* CoreTextSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreTextSample-Prefix.pch"; sourceTree = "<group>"; };
-		B8460E9615A8708500C825FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B8460E9715A8708500C825FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B8460EB415A903AE00C825FB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		B8460EB515A903AE00C825FB /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		B8460EB715A903DE00C825FB /* CoreTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextViewController.h; sourceTree = "<group>"; };
-		B8460EB815A903DE00C825FB /* CoreTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextViewController.m; sourceTree = "<group>"; };
+		B8460EB515A903AE00C825FB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B8460EBD15A9042400C825FB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		B8460EBF15A904D800C825FB /* CoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextView.h; sourceTree = "<group>"; };
 		B8460EC015A904D800C825FB /* CoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextView.m; sourceTree = "<group>"; };
@@ -90,7 +83,6 @@
 		B8984F47164F667A00E6A3D3 /* Sample14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample14.m; sourceTree = "<group>"; };
 		B8D7F7D01611F4B400B56697 /* Sample12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample12.h; sourceTree = "<group>"; };
 		B8D7F7D11611F4B400B56697 /* Sample12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample12.m; sourceTree = "<group>"; };
-		B8D7F7DE1612DBFD00B56697 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +103,6 @@
 		B8460E7815A8708500C825FB = {
 			isa = PBXGroup;
 			children = (
-				B8D7F7DE1612DBFD00B56697 /* Default-568h@2x.png */,
 				B8460EBD15A9042400C825FB /* CoreText.framework */,
 				B8460E8D15A8708500C825FB /* CoreTextSample */,
 				B8460E8615A8708500C825FB /* Frameworks */,
@@ -140,12 +131,8 @@
 		B8460E8D15A8708500C825FB /* CoreTextSample */ = {
 			isa = PBXGroup;
 			children = (
-				B8460E9615A8708500C825FB /* AppDelegate.h */,
-				B8460E9715A8708500C825FB /* AppDelegate.m */,
-				B8460EB415A903AE00C825FB /* TableViewController.h */,
-				B8460EB515A903AE00C825FB /* TableViewController.m */,
-				B8460EB715A903DE00C825FB /* CoreTextViewController.h */,
-				B8460EB815A903DE00C825FB /* CoreTextViewController.m */,
+				61C1145B29542FB70069B1FB /* CoreTextApp.swift */,
+				B8460EB515A903AE00C825FB /* ContentView.swift */,
 				B8460EBF15A904D800C825FB /* CoreTextView.h */,
 				B8460EC015A904D800C825FB /* CoreTextView.m */,
 				B8460EC415A9084A00C825FB /* Sample */,
@@ -160,8 +147,8 @@
 			children = (
 				B8460E8F15A8708500C825FB /* CoreTextSample-Info.plist */,
 				B8460E9015A8708500C825FB /* InfoPlist.strings */,
-				B8460E9315A8708500C825FB /* main.m */,
 				B8460E9515A8708500C825FB /* CoreTextSample-Prefix.pch */,
+				61C1145A29542FB70069B1FB /* CoreTextSample-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -234,6 +221,11 @@
 			attributes = {
 				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "Yu Sugawara";
+				TargetAttributes = {
+					B8460E8215A8708500C825FB = {
+						LastSwiftMigration = 1410;
+					};
+				};
 			};
 			buildConfigurationList = B8460E7D15A8708500C825FB /* Build configuration list for PBXProject "CoreTextSample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -261,7 +253,6 @@
 				B8460E9215A8708500C825FB /* InfoPlist.strings in Resources */,
 				B8460EC315A905CE00C825FB /* Text.txt in Resources */,
 				B8460F1715AB345A00C825FB /* Sample8.txt in Resources */,
-				B8D7F7DF1612DBFE00B56697 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8460E9415A8708500C825FB /* main.m in Sources */,
-				B8460E9815A8708500C825FB /* AppDelegate.m in Sources */,
-				B8460EB615A903AE00C825FB /* TableViewController.m in Sources */,
-				B8460EB915A903DE00C825FB /* CoreTextViewController.m in Sources */,
+				B8460EB615A903AE00C825FB /* ContentView.swift in Sources */,
 				B8460EC115A904D800C825FB /* CoreTextView.m in Sources */,
 				B8460EC715A9085F00C825FB /* Sample0.m in Sources */,
 				B8460ECE15A9117600C825FB /* Sample1.m in Sources */,
@@ -289,6 +277,7 @@
 				B82BF63415AB9C7D00076C7E /* Sample4.m in Sources */,
 				B82BF63B15AB9F6200076C7E /* Sample9.m in Sources */,
 				B884FAB515ABC4D200D525A3 /* Sample10.m in Sources */,
+				61C1145C29542FB70069B1FB /* CoreTextApp.swift in Sources */,
 				B884FABD15ABD45C00D525A3 /* Sample11.m in Sources */,
 				B8D7F7D21611F4B400B56697 /* Sample12.m in Sources */,
 				B87D0CE01646D42F002D7788 /* Sample13.m in Sources */,
@@ -407,12 +396,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreTextSample/CoreTextSample-Prefix.pch";
 				INFOPLIST_FILE = "CoreTextSample/CoreTextSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YuSugawara.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreTextSample/CoreTextSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -421,12 +416,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreTextSample/CoreTextSample-Prefix.pch";
 				INFOPLIST_FILE = "CoreTextSample/CoreTextSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YuSugawara.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreTextSample/CoreTextSample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
